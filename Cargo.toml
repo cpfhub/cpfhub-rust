@@ -1,0 +1,20 @@
+[package]
+name = "cpfhub"
+version = "1.0.0"
+edition = "2021"
+authors = ["CPFHub.io <contato@cpfhub.io>"]
+description = "Official Rust SDK for CPFHub.io — Brazilian CPF lookup API. Get name, gender and date of birth from any CPF in ~300ms."
+homepage = "https://cpfhub.io"
+repository = "https://github.com/cpfhub/cpfhub-rust"
+documentation = "https://docs.rs/cpfhub"
+license = "MIT"
+readme = "README.md"
+keywords = ["cpf", "brazil", "api", "identity", "kyc"]
+categories = ["api-bindings", "web-programming::http-client"]
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "1"
