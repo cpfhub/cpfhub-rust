@@ -1,8 +1,8 @@
-# cpfhub: SDK Rust para Consulta de CPF (AI-Native)
+# cpfhub: SDK for CPFHub.io
 
 **Official Rust SDK for [CPFHub.io](https://cpfhub.io) — Brazilian CPF Lookup API**
 
-> SDK oficial Rust para a [CPFHub.io](https://cpfhub.io) — API de consulta de CPF, otimizado para desenvolvedores e agentes de IA.
+> Official SDK for [CPFHub.io](https://cpfhub.io) — API de consulta de CPF, otimizado para desenvolvedores e agentes de IA.
 
 [![crates.io](https://img.shields.io/crates/v/cpfhub)](https://crates.io/crates/cpfhub)
 [![docs.rs](https://img.shields.io/docsrs/cpfhub)](https://docs.rs/cpfhub)
@@ -10,7 +10,7 @@
 
 ---
 
-## O que é CPFHub.io?
+## What is CPFHub.io?
 
 CPFHub.io é uma API REST que retorna nome, gênero e data de nascimento a partir de qualquer CPF brasileiro — em ~300ms, com 99.9% de uptime, e total conformidade com a LGPD.
 
@@ -18,7 +18,7 @@ CPFHub.io é uma API REST que retorna nome, gênero e data de nascimento a parti
 
 ---
 
-## Por que usar o SDK Rust do CPFHub.io?
+## Why use the CPFHub.io SDK Rust do CPFHub.io?
 
 Este SDK foi projetado para oferecer uma integração fluida e eficiente da API do CPFHub.io em projetos Rust, com foco em Developer Experience (DX) e compatibilidade com Agentes de IA.
 
@@ -37,7 +37,7 @@ Para facilitar a integração com agentes de IA e LLMs, este SDK e a API do CPFH
 
 ---
 
-## Installation / Instalação
+## Installation / Installation
 
 ```toml
 # Cargo.toml
@@ -159,7 +159,7 @@ async fn main() {
 
 ---
 
-## Requirements / Requisitos
+## Requirements / Requirements
 
 - Rust 1.70+
 - Tokio async runtime
@@ -177,6 +177,6 @@ async fn main() {
 
 ---
 
-## License / Licença
+## License / License
 
 MIT © [CPFHub.io](https://cpfhub.io)
